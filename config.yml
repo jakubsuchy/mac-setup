@@ -1,0 +1,43 @@
+---
+downloads: ~/.ansible-downloads/
+
+
+homebrew_installed_packages:
+  - autoconf
+  - bash-completion
+  - git
+  - nmap
+  - node
+  - nvm
+  - ssh-copy-id
+  - readline
+  - openssl
+  - wget
+  - socat
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - chromedriver
+  - docker
+  - dropbox
+  - firefox
+  - google-chrome
+  - handbrake
+  - licecap
+  - slack
+  - sublime-text
+  - transmit
+  - 1password
+  - google-drive
+  - dropbox
+
+mas_installed_apps:
+  - { id: 412529613, name: "Cinch" }
+
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+post_provision_tasks: []
