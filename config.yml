@@ -14,6 +14,7 @@ homebrew_installed_packages:
   - openssl
   - wget
   - socat
+  - qemu
 
 homebrew_taps:
   - homebrew/core
@@ -21,6 +22,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - grammarly-desktop
   - chromedriver
   - docker
   - dropbox
@@ -34,6 +36,9 @@ homebrew_cask_apps:
   - 1password
   - google-drive
   - dropbox
+  - utm
+  - zoom
+  - gotomeeting
 
 mas_installed_apps:
   - { id: 412529613, name: "Cinch" }
